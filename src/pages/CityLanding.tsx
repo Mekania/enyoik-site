@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { PRODUCTS, CITIES } from '../data';
-import { MapPin, ArrowRight, CheckCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const CityLanding: React.FC = () => {
     const { city } = useParams<{ city: string }>();

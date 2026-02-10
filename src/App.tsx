@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import { motion, AnimatePresence } from 'framer-motion';
 import { PRODUCTS } from './data';
-import { Link, ArrowRight } from 'lucide-react'; // Import icons if needed, but here we just need generic components
+// Link and ArrowRight removed as they were unused imports from lucide-react
 
 // Reusable Component for Category Pages (Classics vs Innovation)
 const CategoryPage: React.FC<{ category: 'classic' | 'innovator', title: string, subtitle: string }> = ({ category, title, subtitle }) => {

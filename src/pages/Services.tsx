@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Heart, Zap, UserCheck, Star, Sparkles, Smartphone, Printer, Camera } from 'lucide-react';
+import { UserCheck, Sparkles, Smartphone, Printer, Camera } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Services: React.FC = () => {

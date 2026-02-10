@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { PRODUCTS } from '../data';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Star, Plus, Minus } from 'lucide-react';
+import { ArrowRight, Plus, Minus } from 'lucide-react';
 
 const CompactCatalog: React.FC = () => {
     const [showAll, setShowAll] = useState(false);
